@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f4; /* Ljus bakgrundsfärg, lite som snö */
+    color: #333; /* Mörk textfärg f kontrast */
+    text-align: center; /* Centrera text */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6a1b9a; /* Mörklila bakgrundsfärg fr filmens tema */
+    color: white; /* Vit text, rubriker */
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none; /* Ta bort punktlistor */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Horisontell länklista*/
+    margin: 0 15px; /* Avstånd mellan länkar */
+}
+
+nav a {
+    color: white; /* Vit textfärg, länkar */
+    text-decoration: none; /* Ingen understrykning */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Understrykning vid hover */
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc; /* Ljus grå ram runt sektioner */
+    border-radius: 8px; /* Rundade hörn */
+    background-color: #ffffff; /* Vit bakgrund, innehåll */
+}
+
+/* CSS för video-trailer */
+#video {
+    max-width:100; /*Responsiv sektion*/
+    height: auto; /* Höjd beroende på content */
+    display: flex;
+    align-items: center; /* Centrera vertikalt */
+    justify-content: center; /* Centrera horisontellt */
+    margin: 20px;
+    padding: 15px;
+}
+
+footer {
+    background-color: #4a148c; /* Mörk lila, footer */
+    color: white; /* Vit text, footer */
+    height: 50px; /* Fast höjd, footer */
+    display: flex;
+    justify-content: center; /* Centrera text, footer */
+    align-items: center; /* Vertikal centrering */
+    margin-top: 20px; /* Avstånd över footer */
+}
+
+/* CSS för iframe */
+iframe {
+    width: 80%; /* %-andel av parents bredd */
+    max-width: 640px; /* Max bredd, iframe */
+    height: 360px; /* Sätt fast höjd, iframe (16:9 ratio) */
+    border: none; /* Ta bort ev. ram */
+}
